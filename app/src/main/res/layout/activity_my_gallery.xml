@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#55000000" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="基建照片浏览"
+        android:textSize="20sp"/>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        >
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            >
+            <ImageSwitcher
+                android:id="@+id/switcher"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center_horizontal" />
+            <ImageButton
+                android:id="@+id/previous"
+                android:layout_width="50dp"
+                android:layout_height="fill_parent"
+                android:src="@drawable/previous"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center_vertical" />
+            <ImageButton
+                android:id="@+id/next"
+                android:layout_width="50dp"
+                android:layout_height="fill_parent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/next"
+                android:layout_gravity="center_vertical|right" />
+            <ImageButton
+                android:id="@+id/delete"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="right"
+                android:layout_marginRight="50dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/error"
+                android:background="#00000000" />
+        </FrameLayout>
+
+
+        <Gallery
+            android:id="@+id/mygallery"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:gravity="center_vertical"
+            android:spacing="16dp"
+            android:layout_gravity="bottom" />
+    </LinearLayout>
+
+</LinearLayout>

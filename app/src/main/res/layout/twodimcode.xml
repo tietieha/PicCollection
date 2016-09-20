@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ebebeb"
+    tools:context="com.example.aliang.piccollection.SetUp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:background="#393a3f">
+        <ImageView
+            android:id="@+id/setup_back"
+            android:scaleType="centerCrop"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/left" />
+        <TextView
+            android:layout_marginTop="7dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="二维码扫描"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:layout_centerInParent="true" />
+
+    </RelativeLayout>
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <SurfaceView android:id="@+id/preview_view"
+        android:layout_width="fill_parent"
+        android:layout_gravity="center"
+        android:layout_height="fill_parent"
+        />
+    <com.example.aliang.piccollection.view.ViewfinderView
+        android:id="@+id/viewfinder_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+
+        android:background="#00000000"/>
+    <RelativeLayout
+        android:id="@+id/QR_Project_name"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:background="#ffffff">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="工程名称"
+            />
+        <TextView
+            android:id="@+id/QR_name_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textColor="#999999"
+            android:text="未命名"
+            />
+    </RelativeLayout>
+</FrameLayout>
+</LinearLayout>

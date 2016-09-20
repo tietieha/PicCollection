@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <RelativeLayout
+           android:id="@+id/companyName"
+           android:layout_marginTop="3dp"
+           android:paddingLeft="10dp"
+           android:paddingRight="10dp"
+
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:gravity="center_vertical"
+           android:background="#ffffff">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="公司名称"
+               />
+           <TextView
+               android:id="@+id/companyName_content"
+               android:textColor="#999999"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentRight="true"
+               android:text="未命名"
+               />
+       </RelativeLayout>
+       <LinearLayout
+           android:id="@+id/Project_name"
+           android:layout_marginTop="10dp"
+           android:padding="10dp"
+
+
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="center_vertical"
+           android:background="#ffffff">
+           <TextView
+               android:layout_width="0dp"
+               android:layout_weight="1"
+               android:layout_height="wrap_content"
+               android:text="工程名称"
+               />
+           <TextView
+               android:id="@+id/Project_name_content"
+               android:layout_width="0dp"
+               android:layout_weight="1"
+               android:layout_height="wrap_content"
+               android:layout_alignParentRight="true"
+               android:textColor="#999999"
+
+               android:text="未命名"
+               android:gravity="right" />
+       </LinearLayout>
+
+       <RelativeLayout
+           android:id="@+id/Project_type"
+           android:layout_marginTop="3dp"
+           android:paddingLeft="10dp"
+           android:paddingRight="10dp"
+
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:gravity="center_vertical"
+           android:background="#ffffff">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="标识牌类型"
+               />
+           <TextView
+               android:id="@+id/Project_type_content"
+               android:textColor="#999999"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentRight="true"
+               android:text="施工部位"
+               />
+       </RelativeLayout>
+
+       <LinearLayout
+           android:id="@+id/Project_road"
+           android:layout_marginTop="3dp"
+           android:padding="10dp"
+
+
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="center_vertical"
+           android:background="#ffffff">
+           <TextView
+               android:layout_width="0dp"
+               android:layout_weight="1"
+               android:layout_height="wrap_content"
+               android:text="拍摄内容"
+               />
+           <TextView
+               android:id="@+id/Project_road_content"
+               android:textColor="#999999"
+               android:layout_width="0dp"
+               android:layout_weight="1"
+               android:layout_height="wrap_content"
+               android:layout_alignParentRight="true"
+               android:gravity="right"
+               android:text="未命名"
+               />
+       </LinearLayout>
+
+       <RelativeLayout
+           android:id="@+id/Project_tran"
+           android:layout_marginTop="10dp"
+           android:paddingLeft="10dp"
+           android:paddingRight="10dp"
+
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:gravity="center_vertical"
+           android:background="#ffffff">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="透明度设置"
+               />
+           <TextView
+               android:id="@+id/Project_tran_content"
+               android:textColor="#999999"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentRight="true"
+               android:text="半透明"
+               />
+       </RelativeLayout>
+
+       <RelativeLayout
+           android:id="@+id/Project_position"
+           android:layout_marginTop="3dp"
+           android:paddingLeft="10dp"
+           android:paddingRight="10dp"
+
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:gravity="center_vertical"
+           android:background="#ffffff">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="标识牌位置"
+               />
+           <TextView
+               android:id="@+id/Project_position_content"
+               android:textColor="#999999"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentRight="true"
+               android:text="左下方"
+               />
+       </RelativeLayout>
+
+       <RelativeLayout
+           android:id="@+id/Project_save"
+           android:layout_marginTop="3dp"
+           android:paddingLeft="10dp"
+           android:paddingRight="10dp"
+
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:gravity="center_vertical"
+           android:background="#ffffff">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="存储位置"
+               />
+           <TextView
+               android:id="@+id/Project_save_content"
+               android:textColor="#999999"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentRight="true"
+               android:text="内置存储"
+               />
+       </RelativeLayout>
+
+       <RelativeLayout
+           android:id="@+id/Project_resolution"
+           android:layout_marginTop="3dp"
+           android:paddingLeft="10dp"
+           android:paddingRight="10dp"
+
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:gravity="center_vertical"
+           android:background="#ffffff">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="分辨率"
+               />
+           <TextView
+               android:id="@+id/Project_resolution_content"
+               android:textColor="#999999"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentRight="true"
+               android:text="默认"
+               />
+       </RelativeLayout>
+
+       <RelativeLayout
+           android:id="@+id/Project_isShow"
+           android:layout_marginTop="3dp"
+           android:paddingLeft="10dp"
+           android:paddingRight="10dp"
+
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:gravity="center_vertical"
+           android:background="#ffffff">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="显示设置提示"
+               />
+           <TextView
+               android:id="@+id/Project_isShow_content"
+               android:textColor="#999999"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentRight="true"
+               android:text="显示"
+               />
+       </RelativeLayout>
+   </LinearLayout>
+
+</ScrollView>

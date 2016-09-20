@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projects>
+    //变电工程
+    //工程1
+    <project>
+        <name>葫芦岛供电公司连山区钢屯66千伏变电站改造工程</name>
+    </project>
+    //工程2
+    <project>
+        <name>国网辽宁葫芦岛供电公司66kV新开岭变电站10kV开关柜改造工程</name>
+    </project>
+    //工程3
+    <project>
+        <name>葫芦岛谷杖子66千伏变电站增容改造工程</name>
+    </project>
+    //工程4
+    <project>
+        <name>葫芦岛王宝66kV变电站新建工程</name>
+    </project>
+    //工程5
+    <project>
+        <name>葫芦岛海滨66kV变电站新建工程</name>
+    </project>
+    //工程6
+    <project>
+        <name>葫芦岛王凤台66千伏变电站增容改造工程</name>
+    </project>
+    //工程7
+    <project>
+        <name>葫芦岛红崖子66千伏2#主变扩建工程</name>
+    </project>
+
+
+</projects>

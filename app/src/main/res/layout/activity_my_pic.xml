@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView"
+        android:scaleType="centerCrop"
+        android:layout_gravity="right" />
+
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/pic_back"
+        android:scaleType="centerCrop"
+        android:src="@drawable/back"
+        />
+
+    <LinearLayout
+        android:id="@+id/pic_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:visibility="invisible">
+        <ImageButton
+            android:scaleType="centerCrop"
+
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/pic_yes"
+            android:src="@drawable/yes"
+            />
+        <ImageButton
+            android:scaleType="centerCrop"
+
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/pic_error"
+            android:src="@drawable/error"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/pic_plane"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:background="@drawable/background"
+        android:orientation="vertical"
+        android:padding="5dp">
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="3dp">
+
+            <TextView
+                android:id="@+id/pic_company_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="未命名"
+                android:textColor="#01544A"
+                android:textSize="14dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp">
+            <TextView
+                android:id="@+id/pic_text_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#5a5a5a"
+                android:text="工程名称："
+                android:textStyle="bold"
+                android:textSize="15dp"
+                />
+            <TextView
+                android:id="@+id/pic_text_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="未命名"
+                android:textSize="14dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp">
+            <TextView
+                android:id="@+id/pic_text_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#5a5a5a"
+                android:textStyle="bold"
+                android:text="施工部位："
+                android:textSize="15dp"
+                />
+            <TextView
+                android:id="@+id/pic_text_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp">
+            <TextView
+                android:id="@+id/pic_text_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#5a5a5a"
+                android:text="施工日期："
+                android:textStyle="bold"
+                android:textSize="15dp"
+                />
+            <TextView
+                android:id="@+id/pic_text_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textSize="14dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageButton
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/addpic"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center"
+        android:src="@drawable/add" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="2016/"
+        android:id="@+id/pic_CurrentTime"
+        android:textColor="#ffd700"
+        android:textStyle="bold"
+        android:layout_gravity="right|bottom"
+        android:layout_marginBottom="0dp"
+        android:layout_marginRight="20dp" />
+</FrameLayout>
